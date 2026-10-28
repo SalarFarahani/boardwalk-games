@@ -97,6 +97,17 @@ h2 {
   border: none;
 }
 
+/* Events section */
+#events .student-discount {
+    display: table;
+    margin: 0 auto;
+    background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
+    padding: 0.35rem 0.75rem;
+    text-align: center;
+}
+
 /* Footer / Contact */
 #contact {
   background-color: var(--primary-color);
@@ -174,4 +185,17 @@ h2 {
   #services .card-body {
     min-height: 195px;
   }
+}
+
+/* Events table on mobile */
+@media screen and (max-width: 575.98px) {
+    #events .events-table {
+        font-size: 0.7rem;
+    }
+
+    #events .events-table th,
+    #events .events-table td {
+        padding: 0.25rem;
+        overflow-wrap: anywhere;
+    }
 }
