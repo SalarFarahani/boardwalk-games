@@ -37,9 +37,15 @@ h2 {
   color: var(--highlight-color);
 }
 
+/* Reusable section spacing */
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+/* Prevent fixed navbar from covering section headings */
+html {
+  scroll-padding-top: 75px;
 }
 
 /* Buttons */
