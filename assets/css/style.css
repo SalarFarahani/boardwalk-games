@@ -140,6 +140,7 @@ html {
 #contact .social-links i {
   color: var(--light-highlight-color);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -150,17 +151,6 @@ html {
 #contact .table-dark * {
   background-color: transparent;
 }
-/* grid visualisation CSS for testing */
-
-/*.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
 
 /* Media Queries */
 /* Medium devices (tablets, 768px and up) */
