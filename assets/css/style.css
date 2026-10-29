@@ -43,26 +43,26 @@ h2 {
 
 /* Buttons */
 .custom-button-filled {
-    border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
-    color: white;
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 .custom-button-filled:hover {
-    border: 2px solid var(--secondary-color);
-    background-color: var(--secondary-color);
-    color: white;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .custom-button-outline {
-    border: 2px solid var(--highlight-color);
-    color: var(--highlight-color);
-    padding: 7px 25px;
+  border: 2px solid var(--highlight-color);
+  color: var(--highlight-color);
+  padding: 7px 25px;
 }
 
 .custom-button-outline:hover {
-    background-color: var(--highlight-color);
-    color: white;
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 /* Navbar */
@@ -98,14 +98,15 @@ h2 {
 }
 
 /* Events section */
-#events .student-discount {
-    display: table;
-    margin: 0 auto;
-    background-color: var(--highlight-color);
-    color: white;
-    font-weight: bold;
-    padding: 0.35rem 0.75rem;
-    text-align: center;
+.student-discount {
+  background-color: var(--highlight-color);
+  font-weight: bold;
+  color: white;
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  padding: 5px 10px;
+  font-size: 0.8rem;
 }
 
 /* Footer / Contact */
@@ -189,13 +190,13 @@ h2 {
 
 /* Events table on mobile */
 @media screen and (max-width: 575.98px) {
-    #events .events-table {
-        font-size: 0.7rem;
-    }
+  #events .events-table {
+    font-size: 0.7rem;
+  }
 
-    #events .events-table th,
-    #events .events-table td {
-        padding: 0.25rem;
-        overflow-wrap: anywhere;
-    }
+  #events .events-table th,
+  #events .events-table td {
+    padding: 0.25rem;
+    overflow-wrap: anywhere;
+  }
 }
